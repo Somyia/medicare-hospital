@@ -1,0 +1,37 @@
+/* single service style  */
+.service-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 0.9rem;
+    height: 170px;
+}
+.service-img-box{
+    overflow: hidden;
+}
+.service-item:hover .service-img,{
+    transform: scale(1.1);
+}
+.service-img{
+    height: 100%;
+    transition: .3s;
+}
+
+.service-info{
+    padding: 5px 10px;
+}
+.service-name{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: ;
+}
+.service-btn{
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 5px 10px;
+    margin-top: -10px;
+    border: 1px solid transparent;
+}
+.service-btn:hover, .btn-hover:hover{
+    background-color: transparent;
+    color:#0d6efd;
+}

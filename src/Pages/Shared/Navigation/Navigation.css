@@ -1,0 +1,12 @@
+/* menu style  */
+.menu{
+    text-decoration: none;
+    padding: 5px 10px;
+    font-weight: 700;
+    color: #28ABB9;
+    margin-right: 5px;
+    transition: .3s;
+}
+.menu:hover{
+    color: #55a355;
+}

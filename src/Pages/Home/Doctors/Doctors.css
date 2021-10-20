@@ -1,0 +1,6 @@
+.single-img{
+    transition: .3s;;
+}
+.doctor-img:hover{
+    transform: scale(0.9);
+}

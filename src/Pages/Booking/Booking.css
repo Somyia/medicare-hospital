@@ -1,0 +1,28 @@
+.booking-area{
+    background-image: url(../../images/bg-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.overlay{
+    background-color: rgba(20, 45, 63, 0.493);
+    
+    height: 100%;
+    width: 100%;
+    
+}
+.booking-form input, .booking-form textarea{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    border: none;
+    color: gray;
+    font-size: 12px;
+    padding: 0 30px;
+    font-style: italic;
+}
+.booking-form textarea{
+    height: 100px;
+    padding: 15px 30px;
+}
