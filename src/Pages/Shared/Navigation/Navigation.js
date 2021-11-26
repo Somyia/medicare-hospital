@@ -28,7 +28,7 @@ const Navigation = () => {
             </Nav.Item>
             <Nav.Item>
                 {
-                    user?.uid ? <Nav.Link onClick={logOut} href="/login">Home</Nav.Link> : <Nav.Link href="/login">SignUp</Nav.Link>
+                    user?.uid ? <Nav.Link onClick={logOut} href="/login">LogOut</Nav.Link> : <Nav.Link href="/login">SignUp</Nav.Link>
                 }
 
             </Nav.Item>
